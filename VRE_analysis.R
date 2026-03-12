@@ -1,5 +1,5 @@
 # =========================================================================
-# A A병원 VRE(Vancomycin-Resistant Enterococci) 감염 추세 분석
+# A병원 VRE(Vancomycin-Resistant Enterococci) 감염 추세 분석
 # 분석 모델: Poisson-Gamma Conjugate Model & Monte Carlo Simulation
 # =========================================================================
 
