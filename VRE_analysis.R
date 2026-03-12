@@ -1,5 +1,5 @@
 # =========================================================================
-# 베드로병원 VRE(Vancomycin-Resistant Enterococci) 감염 추세 분석
+# A A병원 VRE(Vancomycin-Resistant Enterococci) 감염 추세 분석
 # 분석 모델: Poisson-Gamma Conjugate Model & Monte Carlo Simulation
 # =========================================================================
 
@@ -7,7 +7,7 @@
 # n: 총 재원일수 / 1000 (단위 노출량)
 # y: 실제 발생 건수 (Rate * n)
 n_2023 <- 261.2; y_2023 <- 5.2   # 2023년 데이터
-n_2025 <- 344.8; y_2025 <- 113.8 # 2025년 데이터
+n_2025 <- 334.0; y_2025 <- 110.2 # 2025년 데이터
 
 # 2. 베이지안 사후분포 도출 (Conjugate Prior: Gamma Distribution)
 # 무정보적 사전분포(Non-informative Prior) Gamma(0.001, 0.001) 가정
